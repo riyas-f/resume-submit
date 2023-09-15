@@ -80,9 +80,9 @@ WSGI_APPLICATION = 'accreg.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'employee',
+        'NAME': 'database name',
         'USER': 'postgres',
-        'PASSWORD': '1905',
+        'PASSWORD': 'database password',
         'HOST': 'localhost'
     }
 }
